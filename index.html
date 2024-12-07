@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="controls-container">
+        <div class="control">
+          <label for="tone">Tom</label>
+
+          <select name="tone" id="tone">
+            <option value="C">C</option>
+            <option value="C#">C#</option>
+            <option value="D">D</option>
+            <option value="D#">D#</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            <option value="F#">F#</option>
+            <option value="G">G</option>
+            <option value="G#">G#</option>
+            <option value="A">A</option>
+            <option value="A#">A#</option>
+            <option value="B">B</option>
+          </select>
+        </div>
+
+        <div class="control">
+          <label for="scale">Escala</label>
+
+          <select name="scale" id="scale">
+            <option value="major">Maior</option>
+            <option value="minor">Menor</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="piano-container">
+        <div class="piano">
+          <!-- 1° Oitava -->
+          <div class="with-sharp">
+            <div id="C1" class="key natural"></div>
+            <div id="C#1" class="key sharp"></div>
+          </div>
+          <div class="with-sharp">
+            <div id="D1" class="key natural"></div>
+            <div id="D#1" class="key sharp"></div>
+          </div>
+          <div id="E1" class="key natural"></div>
+          <div class="with-sharp">
+            <div id="F1" class="key natural"></div>
+            <div id="F#1" class="key sharp"></div>
+          </div>
+          <div class="with-sharp">
+            <div id="G1" class="key natural"></div>
+            <div id="G#1" class="key sharp"></div>
+          </div>
+          <div class="with-sharp">
+            <div id="A1" class="key natural"></div>
+            <div id="A#1" class="key sharp"></div>
+          </div>
+          <div id="B1" class="key natural"></div>
+
+          <!-- 2° Oitava -->
+          <div class="with-sharp">
+            <div id="C2" class="key natural"></div>
+            <div id="C#2" class="key sharp"></div>
+          </div>
+          <div class="with-sharp">
+            <div id="D2" class="key natural"></div>
+            <div id="D#2" class="key sharp"></div>
+          </div>
+          <div id="E2" class="key natural"></div>
+          <div class="with-sharp">
+            <div id="F2" class="key natural"></div>
+            <div id="F#2" class="key sharp"></div>
+          </div>
+          <div class="with-sharp">
+            <div id="G2" class="key natural"></div>
+            <div id="G#2" class="key sharp"></div>
+          </div>
+          <div class="with-sharp">
+            <div id="A2" class="key natural"></div>
+            <div id="A#2" class="key sharp"></div>
+          </div>
+          <div id="B2" class="key natural"></div>
+
+          <!-- 3° Oitava -->
+          <div class="with-sharp">
+            <div id="C3" class="key natural"></div>
+            <div id="C#3" class="key sharp"></div>
+          </div>
+          <div class="with-sharp">
+            <div id="D3" class="key natural"></div>
+            <div id="D#3" class="key sharp"></div>
+          </div>
+          <div id="E3" class="key natural"></div>
+          <div class="with-sharp">
+            <div id="F3" class="key natural"></div>
+            <div id="F#3" class="key sharp"></div>
+          </div>
+          <div class="with-sharp">
+            <div id="G3" class="key natural"></div>
+            <div id="G#3" class="key sharp"></div>
+          </div>
+          <div class="with-sharp">
+            <div id="A3" class="key natural"></div>
+            <div id="A#3" class="key sharp"></div>
+          </div>
+          <div id="B3" class="key natural"></div>
+        </div>
+      </div>
+
+      <div class="chords-container">
+        <div class="chord">I - C</div>
+        <div class="chord">II - Dm</div>
+        <div class="chord">III - Em</div>
+        <div class="chord">IV - F</div>
+        <div class="chord">V - G</div>
+        <div class="chord">VI - Am</div>
+        <div class="chord">VII - B°</div>
+      </div>
+    </div>
+  </body>
+
+  <script src="./script.js"></script>
+</html>
