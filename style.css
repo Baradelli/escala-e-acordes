@@ -154,3 +154,60 @@ body {
 .highlight-key {
   background-color: var(--highlight) !important;
 }
+
+/* Estilos para telas menores */
+@media (max-width: 768px) {
+  .piano {
+    height: 80px; /* Reduz a altura do piano */
+  }
+
+  .piano .natural {
+    width: 1rem;
+  }
+
+  .piano .sharp {
+    width: 0.7rem;
+    height: 60%;
+    left: 0.7rem;
+  }
+
+  .chords-container {
+    padding: 0.5rem;
+  }
+
+  .chord {
+    padding: 0.75rem 0.25rem;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .piano {
+    height: 60px; /* Altura ainda menor para telas muito pequenas */
+  }
+
+  .piano .natural {
+    width: 0.8rem;
+  }
+
+  .piano .sharp {
+    width: 0.5rem;
+    height: 60%;
+    left: 0.6rem;
+  }
+
+  .chords-container {
+    gap: 0.25rem;
+    border: 1px solid #000;
+  }
+
+  .chord {
+    padding: 0.5rem 0.25rem;
+    font-size: 0.75rem;
+  }
+
+  .control select {
+    width: 90px;
+    font-size: 12px;
+  }
+}
