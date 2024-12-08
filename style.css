@@ -151,6 +151,10 @@ body {
   background-color: #ef4444;
 }
 
+.selected-chord {
+  background-color: #7f1d1d !important;
+}
+
 .highlight-key {
   background-color: var(--highlight) !important;
 }
